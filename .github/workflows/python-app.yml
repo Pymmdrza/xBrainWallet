@@ -28,7 +28,6 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install colorama lxml pytest colorama ecdsa lxml codecs random hashlib ecdsa time
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      run: |
         sh Run.sh
         # stop the build if there are Python syntax errors or undefined names
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
