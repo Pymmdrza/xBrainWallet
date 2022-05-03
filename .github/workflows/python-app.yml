@@ -26,9 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        python -m pip install colorama lxml
-        
-        pip install flake8 pytest colorama ecdsa lxml codecs random hashlib ecdsa time
+        python -m pip install colorama lxml pytest colorama ecdsa lxml codecs random hashlib ecdsa time
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       run: |
         sh Run.sh
