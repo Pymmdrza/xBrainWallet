@@ -1,4 +1,4 @@
 while :
 do
-    python3 BrainWallet
+    python3 BrainWallet.py
 done
