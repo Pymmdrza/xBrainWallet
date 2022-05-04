@@ -101,13 +101,6 @@ start = 3
 win = 0
 while True :
     count += 1
-    #         passphrase = ' '.join(random.sample(mylist, random.randint(1,12)))
-    #         #passphrase = ''.join(random.sample(mylist, random.randint(1,12))) # no space
-    #
-    #     if start == 2:
-    #         passphrase = ' '.join(random.sample(mynumbers, random.randint(1,12)))
-    #         #passphrase = ''.join(random.sample(mynumbers, random.randint(1,12))) # no space
-
     choice = random.randrange(2 ** 1 , 2 ** 256)  # edit random range here
     passphrase = str(choice)
     wallet = BrainWallet()
