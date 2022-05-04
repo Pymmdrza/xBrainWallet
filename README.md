@@ -14,7 +14,7 @@ python BrainWallet.py
 
 for use online generetad and crack brain wallet run code:
 
-`pythonxBrainOn.py`
+`python xBrainOn.py`
 
 ---
 
